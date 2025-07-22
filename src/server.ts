@@ -1,16 +1,10 @@
-import fastify from "fastify";
-import { knex } from './database'
-import { env } from './env/index'
-import { transactionsRoutes } from "./routes/transactions";
+import { app } from './app'
+import { env } from './env';
 
-const app = fastify();
-
-app.register(transactionsRoutes, {
-    prefix: 'transactions'
-})
 
 app.listen({
     port: env.PORT,   
-}).then(() => {
+})
+.then(() => {
     console.log('HTTP Server Running!');
 })
