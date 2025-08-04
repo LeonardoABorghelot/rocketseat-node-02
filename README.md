@@ -160,14 +160,6 @@ Durante o desenvolvimento deste projeto, aprendi:
 - **Sistema de Sessões** - Gerenciamento de estado com cookies
 - **Boas Práticas** - Estruturação de código e organização
 
-## 🤝 Contribuição
-
-Este projeto foi desenvolvido como parte de um curso de Node.js. Para contribuições ou dúvidas, sinta-se à vontade para abrir uma issue ou pull request.
-
-## 📄 Licença
-
-Este projeto está sob a licença ISC.
-
 ---
 
 **Desenvolvido durante o curso de Node.js** 🎓 
